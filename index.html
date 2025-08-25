@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hotel Website</title>
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("mobile-menu");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>HOTEL</h1>
+        </div>
+
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="./rooms.html">Rooms</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="bars">
+            <i class="fa fa-bars" onclick="myFunction()" style="font-size: x-large;color: white"></i>
+        </div>
+    </header>
+
+    <div id="mobile-menu">
+        <a href="#">Home</a>
+        <a href="./rooms.html">Rooms</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="cta">
+        <h1>Welcome To HOTEL</h1>
+        <p>Discover And Book Our Luxury Rooms</p>
+        <a href="./rooms.html"><button>Book Now</button></a>
+    </div>
+
+    <div id="about">
+        <h1>About us</h1>
+        <p>
+            At HOTEL, we pride ourselves on offering a luxurious yet affordable experience.
+            We are a top choice for business travelers, families, and leisure guests.
+            From our elegant interiors to our exceptional service, every moment is designed with you in mind.
+        </p>
+
+        <div class="image"></div>
+    </div>
+
+    <div id="contact">
+        <div class="contact-us">
+        <h1>Get In Touch</h1>
+        <p>Do you have anything in your mind? Please don't hesitate to get in touch</p>
+
+        <div class="contact1">
+            <a href=""><i class="fa fa-instagram" style="font-size: 25px;color: purple"></i></a>
+            <a href=""><i class="fa fa-whatsapp"  style="font-size: 25px;color: green"></i></a>
+            <a href=""><i class="fa fa-phone" style="font-size: 25px;color: white"></i></a>
+        </div>
+
+        <form action="post">
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <textarea placeholder="Message"></textarea>
+            <button>Contact Us</button>
+        </form>
+
+        <div class="location">
+            <i class="fa fa-map-marker" style="font-size: 25px;color: green"></i>
+            <p>
+                Head Office: No. 2 Majekodunmi Street, Oshope Plaza, Allen, Ikeja, Lagos 100001, Lagos
+                Annex Address: No.9, Omotayo Ojo street off majekodunmi street, Allen-Avenue, Ikeja, Lagos-State
+            </p>
+        </div>
+    </div>
+    </div>
+
+    <div class="cta2">
+        <h1>Book A Room Now</h1>
+        <a href="/rooms"><button>Book Now</button></a>
+    </div>
+
+    <footer>
+        <div class="footer-menu">
+            <a href="#">Home</a>
+            <a href="./rooms.html">Rooms</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <p>
+            Copyright © <a href="./">HOTEL</a> 2025, All Right Reserved, Designed By <a href="https://www.instagram.com/larrysagency/">Larry</a>.
+        </p>
+    </footer>
+</body>
+</html>
