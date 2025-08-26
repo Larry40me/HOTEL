@@ -47,9 +47,10 @@ header .bars {
 }
 
 .cta h1 {
-    font-weight: 100;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
 }
 
 .cta p {
@@ -295,8 +296,11 @@ footer a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   display: block;
+  font-weight: 200;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
 }
 
 #mobile-menu a:hover {
@@ -389,6 +393,7 @@ footer a {
     }
 
 }
+
 
 
 
