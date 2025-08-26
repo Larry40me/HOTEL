@@ -51,6 +51,7 @@ header .bars {
     font-weight: 200;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 3px;
+    text-tranform: uppercase;
 }
 
 .cta p {
@@ -222,8 +223,11 @@ form button {
 }
 
 .cta2 h1 {
-    font-weight: 100;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+    text-tranform: uppercase;
 }
 
 .cta2 button {
@@ -393,6 +397,7 @@ footer a {
     }
 
 }
+
 
 
 
