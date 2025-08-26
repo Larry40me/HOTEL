@@ -199,6 +199,7 @@ footer a {
     }
     .cta p {
         margin-top: -2%;
+        font-size: 13px;
     }
     #rooms {
         grid-template-columns: auto auto;
@@ -210,7 +211,7 @@ footer a {
         padding: 7px;
     }
     .room p {
-        font-size: 15px;
+        font-size: 13px;
         margin-top: 0%;
     }
     .footer-menu {
@@ -227,5 +228,15 @@ footer a {
     }
     footer p {
         font-size: 15px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    #rooms {
+        grid-template-columns: auto;
+    }
+    #rooms .room {
+        width: 80vw;
     }
 }
