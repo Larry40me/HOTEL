@@ -199,7 +199,7 @@ footer a {
         color: black;
     }
     .cta p {
-        margin-top: -4%;
+        margin-top: -5%;
         font-size: 13px;
     }
     #rooms {
@@ -241,5 +241,6 @@ footer a {
         width: 80vw;
     }
 }
+
 
 
