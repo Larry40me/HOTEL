@@ -213,7 +213,7 @@ footer a {
     }
     .room p {
         font-size: 13px;
-        margin-top: -3%;
+        margin-top: -4%;
     }
     .footer-menu {
         padding-right: 10px;
@@ -228,7 +228,7 @@ footer a {
         border-bottom: none;
     }
     footer p {
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
@@ -241,3 +241,4 @@ footer a {
         width: 80vw;
     }
 }
+
