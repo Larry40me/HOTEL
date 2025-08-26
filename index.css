@@ -320,14 +320,15 @@ footer a {
     }
     .cta p {
         margin-top: -2%;
+        font-size: 13px;
     }
     #about p {
         width: 90vw;
-        font-size: 16px;
+        font-size: 13px;
     }
     #about .image {
         width: 90vw;
-        height: 50vh;
+        height: 40vh;
     }
     #contact {
         height: 90vh;
@@ -338,7 +339,7 @@ footer a {
     }
     .contact-us p {
         margin-top: -1%;
-        font-size: 15px;
+        font-size: 13px;
     }
     form input {
         width: 80vw;
@@ -360,7 +361,7 @@ footer a {
     }
     .location p {
         margin-top: 1%;
-        font-size: 15px;
+        font-size: 13px;
     }
     .cta2 {
         padding-left: 5px;
@@ -387,5 +388,6 @@ footer a {
     }
 
 }
+
 
 
